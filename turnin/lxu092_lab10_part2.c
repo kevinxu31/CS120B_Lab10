@@ -281,7 +281,7 @@ int main(void) {
 	tasks[i].TickFct=&Tick_R;
         i++;
         tasks[i].state=Lstart;
-        tasks[i].period=1;
+        tasks[i].period=100;
         tasks[i].elapsedTime=0;
         tasks[i].TickFct=&Tick_L;
 	i++;
